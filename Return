@@ -246,8 +246,8 @@ game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(arg
 end)
 
 Section:NewButton("Dupe Glyde", "Use auto clicker with 100ms!!", function()
-    local 43 = {
-	[1] = 6,
+    local args = {
+	[1] = 43,
 	[2] = 1
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
