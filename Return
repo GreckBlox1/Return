@@ -1,0 +1,86 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("GreckBloxs Return", "Midnight")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Test")
+
+local running = false -- This flag will control whether the loop is running
+
+Section:NewButton("Dupe Ralsei/Susie/Kris", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 1003,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 1003,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Sans", "Use auto clicker with 100ms!!!", function()
+    local args = {
+	[1] = 1010,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 1010,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Omega Flowey", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 1007,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 1007,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Asgore", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 1011,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 1006,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Mettaton EX", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 1006,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 1011,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+end)
