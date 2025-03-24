@@ -1,31 +1,15 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("GreckBloxs Return", "Midnight")
-local Tab = Window:NewTab("Main")
-local Section = Tab:NewSection("Darkners")
+local Tab = Window:NewTab("Undertale")
 
 local running = false -- This flag will control whether the loop is running
 
-Section:NewButton("Dupe Ralsei/Susie/Kris", "Use auto clicker with 100ms!!", function()
-    local args = {
-	[1] = 1003,
-	[2] = 1
-}
-game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
-
-wait(0.15)
-
-local args = {
-	[1] = 1003,
-	[2] = 2
-}
-game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
-end)
 
 local Section = Tab:NewSection("Special Souls")
 
 Section:NewButton("Dupe Sans", "Use auto clicker with 100ms!!!", function()
     local args = {
-	[1] = 1010,
+	[1] = 10,
 	[2] = 1
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
@@ -33,7 +17,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(ar
 wait(0.15)
 
 local args = {
-	[1] = 1010,
+	[1] = 10,
 	[2] = 2
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
@@ -41,7 +25,7 @@ end)
 
 Section:NewButton("Dupe Omega Flowey", "Use auto clicker with 100ms!!", function()
     local args = {
-	[1] = 1007,
+	[1] = 7,
 	[2] = 1
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
@@ -49,7 +33,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(ar
 wait(0.15)
 
 local args = {
-	[1] = 1007,
+	[1] = 7,
 	[2] = 2
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
@@ -57,7 +41,7 @@ end)
 
 Section:NewButton("Dupe Asgore", "Use auto clicker with 100ms!!", function()
     local args = {
-	[1] = 1011,
+	[1] = 11,
 	[2] = 1
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
@@ -65,7 +49,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(ar
 wait(0.15)
 
 local args = {
-	[1] = 1006,
+	[1] = 11,
 	[2] = 2
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
@@ -73,7 +57,7 @@ end)
 
 Section:NewButton("Dupe Mettaton EX", "Use auto clicker with 100ms!!", function()
     local args = {
-	[1] = 1006,
+	[1] = 6,
 	[2] = 1
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
@@ -81,12 +65,75 @@ game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(ar
 wait(0.15)
 
 local args = {
-	[1] = 1011,
+	[1] = 6,
 	[2] = 2
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
 end)
 
+Section:NewButton("Dupe Asriel", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 13,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 13,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Mettaton NEO", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 9,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 9,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Undyne The Undying", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 8,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 8,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Frisk", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 1,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 1,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+end)
 
 local Section = Tab:NewSection("Ruins")
 Section:NewButton("Dupe Froggit", "Use auto clicker with 100ms!!", function()
@@ -105,21 +152,6 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
 end)
 
-Section:NewButton("Dupe Vegetoid", "Use auto clicker with 100ms!!", function()
-    local args = {
-	[1] = 2,
-	[2] = 1
-}
-game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
-
-wait(0.15)
-
-local args = {
-	[1] = 2,
-	[2] = 2
-}
-game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
-end)
 Section:NewButton("Dupe Vegetoid", "Use auto clicker with 100ms!!", function()
     local args = {
 	[1] = 2,
@@ -219,15 +251,527 @@ end)
 
 local Section = Tab:NewSection("Snowdin")
 
+Section:NewButton("Dupe Snowdrake", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 8,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 8,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe IceCap", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 9,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 9,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe LesserDog", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 10,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 10,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Gyftrot", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 11,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 11,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Jerry", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 12,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 12,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Doggo", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 13,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 13,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Dogami", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 14,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 14,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Dogaressa", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 15,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 15,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe GreaterDog", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 16,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 17,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
 local Section = Tab:NewSection("Waterfall")
+
+Section:NewButton("Dupe Aaron", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 18,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 18,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Woshua", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 19,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 19,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Shyren", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 21,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 21,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Vulkin", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 22,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 22,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
 
 local Section = Tab:NewSection("Hotland")
 
+Section:NewButton("Dupe Vulkin", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 22,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 22,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Tsunderplane", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 23,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 23,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Pyrope", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 24,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 24,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe RoyalGuard01", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 25,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 25,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe RoyalGuard02", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 26,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 26,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Mettaton", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 27,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 27,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
 local Section = Tab:NewSection("CORE")
+
+Section:NewButton("Dupe FinalFroggit", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 28,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 28,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Whimsalot", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 29,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 29,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Astigmaism", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 30,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 30,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe KnightKnight", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 31,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 31,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Madjick", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 32,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 32,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
 
 local Section = Tab:NewSection("True Lab")
 
+Section:NewButton("Dupe MemoryHead", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 45,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 45,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Endogeny", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 47,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 46,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe ReaperBird", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 47,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 47,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe LemonBread", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 48,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 48,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Snowdrake'sMother", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 49,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 49,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
 local Section = Tab:NewSection("Secret Encounters")
+
+Section:NewButton("Dupe Dummy", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 39,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 39,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Glyde", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 43,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 43,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Glyde", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 40,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 40,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
 
 Section:NewButton("Dupe Alphys", "Use auto clicker with 100ms!!", function()
     local args = {
@@ -245,9 +789,9 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
 end)
 
-Section:NewButton("Dupe Glyde", "Use auto clicker with 100ms!!", function()
+Section:NewButton("Dupe SoSorry", "Use auto clicker with 100ms!!", function()
     local args = {
-	[1] = 43,
+	[1] = 44,
 	[2] = 1
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
@@ -255,7 +799,295 @@ game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(arg
 wait(0.15)
 
 local args = {
-	[1] = 43,
+	[1] = 44,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Parsnik", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 50,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 50,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Moldessa", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 51,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 51,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Migospel", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 52,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 52,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+local Tab = Window:NewTab("Deltarune")
+local Section = Tab:NewSection("Lightners")
+
+Section:NewButton("Dupe Kris", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 1001,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 1001,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+end)
+
+
+Section:NewButton("Dupe Susie", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 1002,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 1002,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+end)
+
+
+Section:NewButton("Dupe Ralsei", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 1003,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 1003,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip2"):FireServer(unpack(args))
+end)
+
+local Section = Tab:NewSection("Field of Hopes And Dreams")
+
+Section:NewButton("Dupe Rudinn", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 501,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 501,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Hathy", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 502,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+
+
+local args = {
+	[1] = 502,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Jigsawry", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 504,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+
+
+local args = {
+	[1] = 504,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe C.Round", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 505,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+
+
+local args = {
+	[1] = 505,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe K.Round", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 506,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 506,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+local Section = Tab:NewSection("Forest + Card Castle")
+
+Section:NewButton("Dupe Rabbick", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 507,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 507,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Bloxer", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 508,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 508,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe Clover", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 509,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 509,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe StarwalkerBird", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 510,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 510,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+
+Section:NewButton("Dupe RudinnRanger", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 511,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 511,
+	[2] = 2
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Dupe HeadHathy", "Use auto clicker with 100ms!!", function()
+    local args = {
+	[1] = 512,
+	[2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
+
+wait(0.15)
+
+local args = {
+	[1] = 512,
 	[2] = 2
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Equip"):FireServer(unpack(args))
