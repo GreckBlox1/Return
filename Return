@@ -1,3 +1,4 @@
+local github = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreckBlox1/Return/refs/heads/main/Return"))()
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("GreckBloxs Return", "Midnight")
 local Tab = Window:NewTab("Undertale")
