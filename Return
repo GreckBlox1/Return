@@ -3304,5 +3304,4 @@ local Button = Tab:CreateButton({
    end,
 })
 
-
 Rayfield:LoadConfiguration()
