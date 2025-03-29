@@ -3202,7 +3202,7 @@ local Button = Tab:CreateButton({
    Name = "OrangeSoul",
    Callback = function()
        local args = {
-           [1] = 35
+           [1] = 1035
        }
        game:GetService("ReplicatedStorage"):WaitForChild("Title"):FireServer(unpack(args))
    end,
@@ -3214,7 +3214,7 @@ local Button = Tab:CreateButton({
    Name = "PurpleSoul",
    Callback = function()
        local args = {
-           [1] = 36
+           [1] = 1036
        }
        game:GetService("ReplicatedStorage"):WaitForChild("Title"):FireServer(unpack(args))
    end,
@@ -3226,7 +3226,7 @@ local Button = Tab:CreateButton({
    Name = "YellowSoul",
    Callback = function()
        local args = {
-           [1] = 37
+           [1] = 1037
        }
        game:GetService("ReplicatedStorage"):WaitForChild("Title"):FireServer(unpack(args))
    end,
@@ -3238,7 +3238,7 @@ local Button = Tab:CreateButton({
    Name = "CyanSoul",
    Callback = function()
        local args = {
-           [1] = 38
+           [1] = 1038
        }
        game:GetService("ReplicatedStorage"):WaitForChild("Title"):FireServer(unpack(args))
    end,
@@ -3250,7 +3250,7 @@ local Button = Tab:CreateButton({
    Name = "OmegaFlowey",
    Callback = function()
        local args = {
-           [1] = 1007
+           [1] = 2007
        }
        game:GetService("ReplicatedStorage"):WaitForChild("Title"):FireServer(unpack(args))
    end,
