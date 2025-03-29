@@ -3196,7 +3196,7 @@ local Button = Tab:CreateButton({
 })
 
 local Tab = Window:CreateTab("Title Equip")
-local Section = Tab:CreateSection("Frisk")
+local Section = Tab:CreateSection("Bravery")
 
 local Button = Tab:CreateButton({
    Name = "OrangeSoul",
@@ -3208,7 +3208,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Section = Tab:CreateSection("Toriel")
+local Section = Tab:CreateSection("Perseverance")
 
 local Button = Tab:CreateButton({
    Name = "PurpleSoul",
@@ -3220,7 +3220,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Section = Tab:CreateSection("Papyrus")
+local Section = Tab:CreateSection("Justice")
 
 local Button = Tab:CreateButton({
    Name = "YellowSoul",
@@ -3232,7 +3232,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Section = Tab:CreateSection("Undyne")
+local Section = Tab:CreateSection("Patience")
 
 local Button = Tab:CreateButton({
    Name = "CyanSoul",
