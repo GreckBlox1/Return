@@ -3199,10 +3199,10 @@ local Tab = Window:CreateTab("Title Equip")
 local Section = Tab:CreateSection("Frisk")
 
 local Button = Tab:CreateButton({
-   Name = "Frisk",
+   Name = "OrangeSoul",
    Callback = function()
        local args = {
-           [1] = 1001
+           [1] = 35
        }
        game:GetService("ReplicatedStorage"):WaitForChild("Title"):FireServer(unpack(args))
    end,
@@ -3211,10 +3211,10 @@ local Button = Tab:CreateButton({
 local Section = Tab:CreateSection("Toriel")
 
 local Button = Tab:CreateButton({
-   Name = "Toriel",
+   Name = "PurpleSoul",
    Callback = function()
        local args = {
-           [1] = 1002
+           [1] = 36
        }
        game:GetService("ReplicatedStorage"):WaitForChild("Title"):FireServer(unpack(args))
    end,
@@ -3223,10 +3223,10 @@ local Button = Tab:CreateButton({
 local Section = Tab:CreateSection("Papyrus")
 
 local Button = Tab:CreateButton({
-   Name = "Papyrus",
+   Name = "YellowSoul",
    Callback = function()
        local args = {
-           [1] = 1003
+           [1] = 37
        }
        game:GetService("ReplicatedStorage"):WaitForChild("Title"):FireServer(unpack(args))
    end,
@@ -3235,46 +3235,10 @@ local Button = Tab:CreateButton({
 local Section = Tab:CreateSection("Undyne")
 
 local Button = Tab:CreateButton({
-   Name = "Undyne",
+   Name = "CyanSoul",
    Callback = function()
        local args = {
-           [1] = 1004
-       }
-       game:GetService("ReplicatedStorage"):WaitForChild("Title"):FireServer(unpack(args))
-   end,
-})
-
-local Section = Tab:CreateSection("UndyneTheUndying")
-
-local Button = Tab:CreateButton({
-   Name = "UndyneTheUndying",
-   Callback = function()
-       local args = {
-           [1] = 1008
-       }
-       game:GetService("ReplicatedStorage"):WaitForChild("Title"):FireServer(unpack(args))
-   end,
-})
-
-local Section = Tab:CreateSection("Muffet")
-
-local Button = Tab:CreateButton({
-   Name = "Muffet",
-   Callback = function()
-       local args = {
-           [1] = 1005
-       }
-       game:GetService("ReplicatedStorage"):WaitForChild("Title"):FireServer(unpack(args))
-   end,
-})
-
-local Section = Tab:CreateSection("MettatonEX")
-
-local Button = Tab:CreateButton({
-   Name = "MettatonEX",
-   Callback = function()
-       local args = {
-           [1] = 1006
+           [1] = 38
        }
        game:GetService("ReplicatedStorage"):WaitForChild("Title"):FireServer(unpack(args))
    end,
@@ -3287,18 +3251,6 @@ local Button = Tab:CreateButton({
    Callback = function()
        local args = {
            [1] = 1007
-       }
-       game:GetService("ReplicatedStorage"):WaitForChild("Title"):FireServer(unpack(args))
-   end,
-})
-
-local Section = Tab:CreateSection("MettatonNEO")
-
-local Button = Tab:CreateButton({
-   Name = "MettatonNEO",
-   Callback = function()
-       local args = {
-           [1] = 1009
        }
        game:GetService("ReplicatedStorage"):WaitForChild("Title"):FireServer(unpack(args))
    end,
