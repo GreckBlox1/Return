@@ -99,7 +99,6 @@ local Button = Tab:CreateButton({
         end
     end,
 })
-
 local Button = Tab:CreateButton({
     Name = "Dupe OrangeSoul",
     Callback = function()
